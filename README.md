@@ -6,7 +6,7 @@ Email: marcusgj13@gmail.com
 
 ## Running endoSeg
 
-The easiest way to interact with endoSeg is via the provided jupyter notebook. Analysis in endoSeg is split into three distinct sections: Data loading, preprocessing and segmentation and feature extraction and analysis. EndoSeg requires two inputs. The first is a stack of fluoresecent images (preferrably a 3D data cube where the first dimension is the size of the image stack and the second and third dimensions are the individual image dimensions (i.e. ZXY)). The second is an image that defines the boundaries of the cells in the field of view. It can be either hand drawn or derived from another segmentation software. The outline image does not need to be a binary image as endoSeg should be able to handle the conversion.
+The easiest way to interact with endoSeg is via the provided jupyter notebook. Analysis in endoSeg is split into three distinct sections: Data loading, preprocessing and segmentation, and feature extraction and analysis. EndoSeg requires two inputs. The first is a stack of fluoresecent images (preferrably a 3D data cube where the first dimension is the size of the image stack and the second and third dimensions are the individual image dimensions (i.e. ZXY)). The second is an image that defines the boundaries of the cells in the field of view. It can be either hand drawn or derived from another segmentation software. The outline image does not need to be a binary image as endoSeg should be able to handle the conversion.
 
 
 
